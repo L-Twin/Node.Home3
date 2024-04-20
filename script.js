@@ -40,6 +40,6 @@ app.get('/about', (req, res) => {
     res.send(`This is the about page. Views: ${counters['/about']}`);
 });
 
-app.listen(3070, () => {
-    console.log('Server is running on port 3070');
+app.listen(6060, () => {
+    console.log('Server is running on port 6060');
 });
